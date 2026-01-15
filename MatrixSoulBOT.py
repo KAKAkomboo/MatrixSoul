@@ -7,7 +7,7 @@ app = Flask(__name__)
 TOKEN = os.getenv("BOT_TOKEN")
 RENDER_URL = os.getenv("RENDER_EXTERNAL_URL")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TOKEN}"
-CHANNEL_ID = "@your_channel_username"
+CHANNEL_ID = "https://t.me/katorgaLin"
 
 user_states = {}
 
